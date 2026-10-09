@@ -1,0 +1,32 @@
+# Backend - HYD-PS2
+
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-dotenv==1.0.1
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.0
+
+# Database
+sqlalchemy==2.0.35
+asyncpg==0.30.0
+alembic==1.13.0
+motor==3.6.0
+pymongo==4.9.0
+
+# Redis
+redis==5.1.0
+
+# LLM and email providers are called through their HTTP APIs to keep the runtime small.
+
+# HTTP
+httpx==0.27.0
+aiohttp==3.10.0
+
+# Validation
+pydantic==2.9.0
+pydantic-settings==2.5.0
+email-validator==2.2.0
